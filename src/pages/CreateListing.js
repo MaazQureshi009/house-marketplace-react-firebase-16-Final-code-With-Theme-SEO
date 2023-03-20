@@ -6,6 +6,7 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 import Spinner from "../components/Spinner";
 import { AiOutlineFileAdd } from "react-icons/ai";
 import { toast } from "react-toastify";
+import "../styles/createlisting.css";
 import {
   getStorage,
   ref,
@@ -186,12 +187,12 @@ const CreateListing = () => {
   return (
     <Layout>
       <div className="container d-flex flex-column align-items-center justify-content-center mb-4">
-        <h3 className="mt-3 w-50 bg-dark text-light p-2 text-center">
+        <h3 className="createlisting mt-3 w-50 bg-dark text-light p-2 text-center">
           Create Listing &nbsp;
           <AiOutlineFileAdd />
         </h3>
         {/* sell rent button */}
-        <form className="w-50 bg-light p-4" onSubmit={onSubmit}>
+        <form className="createlisting w-50 bg-light p-4" onSubmit={onSubmit}>
           <div className="d-flex flex-row mt-4">
             <div className="form-check">
               <input

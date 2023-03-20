@@ -43,7 +43,7 @@ const Signin = () => {
     }
   };
   return (
-    <Layout title="signin - house marketplace">
+    <Layout title="signin - property market">
       <div className="row m-4 signin-container ">
         <div className="col-md-6">
           <img src="./assets/loginpage.svg" alt="login" />

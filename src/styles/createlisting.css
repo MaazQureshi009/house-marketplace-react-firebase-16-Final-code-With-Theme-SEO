@@ -1,0 +1,5 @@
+@media screen and (max-width: 650px) {
+    .createlisting{
+        width: 100%!important;
+    }
+}

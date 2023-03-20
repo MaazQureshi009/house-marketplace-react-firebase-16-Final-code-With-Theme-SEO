@@ -17,7 +17,7 @@ const Layout = ({ children, title }) => {
 };
 
 Layout.defaultProps = {
-  title: "House Markteplace - search best home near you  ",
+  title: "Property Market - search best home near you  ",
 };
 
 export default Layout;
