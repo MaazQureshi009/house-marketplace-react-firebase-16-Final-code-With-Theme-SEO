@@ -19,7 +19,7 @@ const HomePage = () => {
           <div className="Imagecontainer">
             <img src={img1} alt="Rent" style={{ width: "100%" }} />
             <button className="btn" onClick={() => navigate("/category/rent")}>
-              FOR RENT
+              For Rent
             </button>
           </div>
         </div>
@@ -27,7 +27,7 @@ const HomePage = () => {
           <div className="Imagecontainer">
             <img src={img2} alt="Rent" style={{ width: "100%" }} />
             <button className="btn" onClick={() => navigate("/category/sale")}>
-              FOR SALE
+              For Sale
             </button>
           </div>
         </div>
