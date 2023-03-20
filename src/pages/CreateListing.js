@@ -18,7 +18,6 @@ import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 
 const CreateListing = () => {
   const [loading, setLoading] = useState(false);
-  const [geoLoactionEnable, setGeoLocationEnable] = useState(false);
   const [formData, setFormData] = useState({
     type: "rent",
     name: "",
@@ -47,8 +46,6 @@ const CreateListing = () => {
     regularPrice,
     discountedPrice,
     images,
-    latitude,
-    longitude,
   } = formData;
 
   const auth = getAuth();
